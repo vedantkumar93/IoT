@@ -1,0 +1,5 @@
+Run Influxdb.
+Run Chronograf.
+http://localhost:8888/
+Enter Query in Explorer to see visual results.
+select value from db6.autogen.onlTVisual, db6.autogen.onlRVisual where time>now()-15m
